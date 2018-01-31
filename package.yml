@@ -1,6 +1,6 @@
 name       : python-xmlrpclib
 version    : 1.0.1
-release    : 1
+release    : 2
 source     :
     - http://effbot.org/media/downloads/xmlrpclib-1.0.1.zip : a1f50a25ba51fa7688ff4d05dfa71c821798e72ba0f6c4aa966d2c0532a77880
 license    : HPND
