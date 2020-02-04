@@ -2,15 +2,15 @@
     <Source>
         <Name>python-xmlrpclib</Name>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>HPND</License>
         <PartOf>programming.python</PartOf>
         <Summary xml:lang="en">Python implementation for Userland&apos;s XML-RPC protocol.</Summary>
         <Description xml:lang="en">Python implementation for Userland&apos;s XML-RPC protocol.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>python-xmlrpclib</Name>
@@ -19,20 +19,22 @@
 </Description>
         <PartOf>programming.python</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/SimpleXMLRPCServer.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/__pycache__/SimpleXMLRPCServer.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/xmlrpclib-1.0.1-py3.6.egg-info</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/xmlrpclib.py</Path>
+            <Path fileType="executable">/usr/bin/echotest.py</Path>
+            <Path fileType="executable">/usr/bin/xmlrpc_handler.py</Path>
+            <Path fileType="executable">/usr/bin/xmlrpcserver.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/SimpleXMLRPCServer.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/__pycache__/SimpleXMLRPCServer.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/xmlrpclib-1.0.1-py3.7.egg-info</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/xmlrpclib.py</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2018-01-31</Date>
+        <Update release="3">
+            <Date>2020-01-26</Date>
             <Version>1.0.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
